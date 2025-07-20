@@ -1,0 +1,16 @@
+characters={
+TRU_George_Marshall={
+		name= "George Marshall"
+	portraits = {
+    civilian = {
+        large = gfx/leaders/CSA/Portrait_CSA_George_Marshall.dds
+    }
+    army = {
+        large = GFX_my_unit_leader_portrait
+    }
+ country_leader = {
+    ideology = oligarchism
+    desc = "Bloody racist"
+}
+} }
+}

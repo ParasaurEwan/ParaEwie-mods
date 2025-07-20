@@ -1,0 +1,113 @@
+characters={
+RUS_Alexander_Kerensky={
+		name= "Aleksander Kerensky"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/RUS/Portrait_RUS_Alexander_Kerensky.dds"
+    } }
+ country_leader = {
+    ideology = social_dem
+    expire = "1970.1.11.2"
+    desc = "He do be Kerensky tho"
+}
+ }
+
+RUS_Viktor_Chernov={
+		        name = "Viktor Chernov"
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/RUS/Portrait_RUS_Viktor_Chernov.dds"
+            }
+        }
+        country_leader = {
+    ideology = liberalism
+    expire = "1953.1.2.1"
+    desc = "He is going to die of old age"
+}
+    } 
+
+RUS_Viktor_Badaylakov={
+		name= "Victor Badaylakov"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/NTS/Portrait_NTS_Victor_Badaylakov.dds"
+    } }
+	country_leader = {
+    ideology = anocracy
+    expire = "1967.1.11.2"
+    desc = "idiot"
+}
+ country_leader = {
+    ideology = anocracy
+    expire = "1967.1.11.2"
+    desc = "idiot"
+}
+ }
+	
+RUS_Two_Parties={
+		name= "All-Socialist Committee"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/SOV/Portrait_SOV_Two_Parties.dds"
+    } }
+ country_leader = {
+    ideology = ulyanovism
+    expire = "1970.1.11.2"
+    desc = "Commies"
+}
+ country_leader = {
+    ideology = syndicalism
+    expire = "1970.1.11.2"
+    desc = "Commies"
+}
+ }	
+	
+
+	RUS_georgy_zhukov = {
+		name = "Georgy Zhukov"
+
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = GFX_portrait_SOV_georgy_zhukov
+			}
+		}
+
+		corps_commander = {
+			traits = { media_personality armor_officer war_hero winter_specialist }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+			legacy_id = 410
+		}
+		
+		country_leader = {
+    ideology = junta
+    expire = "1967.1.11.2"
+    desc = "Yay Zhukov"
+}
+
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = georgy_zhukov
+			ledger = army
+			allowed = {
+				OR = {original_tag = SOV
+				original_tag = RUS}
+			}
+			traits = {
+				mass_assault_expert
+			}
+			ai_will_do = {
+				base = 2
+			}
+		}		
+	}
+	
+}
+
+
+

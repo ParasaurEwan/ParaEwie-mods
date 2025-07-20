@@ -1,0 +1,144 @@
+characters={
+
+
+USA_George_Romney={
+		        name = "George W. Romney"
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/USA/Portrait_USA_George_Romney.dds"
+            }
+        }
+        country_leader = {
+    ideology = conservatism
+    expire = "1995.1.2.1"
+    desc = "yes, he is Mitt Romney's dad."
+}
+    }
+	
+USA_SP_Committee={
+		        name = "Socialist Party Committee"
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/USA/Portrait_USA_SP_Committee.dds"
+            }
+        }
+        country_leader = {
+    ideology = social_dem
+    expire = "1995.1.2.1"
+    desc = "Insert Solidarity forever here"
+}
+    }
+	
+USA_Nat_Un_Committee={
+		        name = "National Union Party Committee"
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/USA/Portrait_USA_Nat_Un_Committee.dds"
+            }
+        }
+        country_leader = {
+    ideology = liberalism
+    expire = "1995.1.2.1"
+    desc = "Insert Solidarity forever here"
+}
+    }
+	
+USA_Adlai_Stevenson={
+		        name = "Adlai E. Stevenson II"
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/USA/Portrait_USA_Adlai_Stevenson.dds"
+            }
+        }
+        country_leader = {
+    ideology = liberalism
+    expire = "1965.1.2.1"
+    desc = "Happy days are here again!"
+}
+    }
+	
+USA_Joe_Kennedy={
+		        name = "Joseph P. Kennedy"
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/USA/Portrait_USA_Joe_Kennedy.dds"
+            }
+        }
+        country_leader = {
+    ideology = nationalistdem
+    expire = "1969.1.2.1"
+    desc = "His Son's Got High hopes! Not him though. He eats Jews."
+}
+    }
+	
+USA_William_Z_Foster={
+		        name = "William Z. Foster"
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/USA/Portrait_USA_William_Z_Foster.dds"
+            }
+        }
+        country_leader = {
+    ideology = ulyanovism
+    expire = "1961.1.2.1"
+    desc = "Americommie"
+}
+    }
+	
+USA_James_Cannon={
+		        name = "James P. Cannon"
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/USA/Portrait_USA_James_Cannon.dds"
+            }
+        }
+        country_leader = {
+    ideology = jacobin
+    expire = "1961.1.2.1"
+    desc = "Americommie"
+}
+    }
+	
+USA_IWW_committee={
+		        name = "Council of the Industrial Workers of the World"
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/USA/Portrait_USA_IWW_Committee.dds"
+            }
+        }
+        country_leader = {
+    ideology = lib_syn
+    expire = "1961.1.2.1"
+    desc = "Americommie"
+}
+    }
+USA_Gerald_LK_Smith={
+		        name = "Gerald L.K. Smith"
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/USA/Portrait_USA_Gerald_LK_Smith.dds"
+            }
+        }
+        country_leader = {
+    ideology = corporatism
+    expire = "1961.1.2.1"
+    desc = "idiot"
+}
+    }
+USA_Coughlin_Bastard={
+		        name = "Charles Coughlin"
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/USA/Portrait_USA_Charles_Coughlin.dds"
+            }
+        }
+        country_leader = {
+    ideology = clerical_fasc
+    expire = "1961.1.2.1"
+    desc = "The Arch-Jew-Eater"
+}
+    }
+
+
+}
+

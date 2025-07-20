@@ -1,0 +1,15 @@
+characters={
+ENG_Harold_Macmillian={
+		name= "Harold Macmillian"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/ENG/Portrait_ENG_Harold_Macmillian.dds"
+    } }
+ country_leader = {
+    ideology = conservatism
+    expire = "1972.1.7.2"
+    desc = "Pip Pip Cheerio"
+}
+ }
+ 
+}

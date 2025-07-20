@@ -1,0 +1,54 @@
+characters={
+NTS_Viktor_Badaylakov={
+		name= "Victor Badaylakov"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/NTS/Portrait_NTS_Victor_Badaylakov.dds"
+    } }
+	country_leader = {
+    ideology = anocracy
+    expire = "1967.1.11.2"
+    desc = "idiot"
+}
+ country_leader = {
+    ideology = social_nationalism
+    expire = "1967.1.11.2"
+    desc = "idiot"
+}
+ }
+
+NTS_Anatoly_Sobchak={
+		        name = "Anatoly Sobchak"
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/RUS/Portrait_RUS_Anatoly_Sobchak.dds"
+            }
+        }
+        country_leader = {
+    ideology = conservatism
+    expire = "2003.1.2.1"
+    desc = "He exists"
+}
+    }
+NTS_andrey_vlasov = {
+		name = SOV_andrey_vlasov
+		portraits = {
+			army = {
+				large = GFX_portrait_SOV_andrey_vlasov
+				small=GFX_portrait_SOV_andrey_vlasov_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer winter_specialist }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+	}
+
+
+

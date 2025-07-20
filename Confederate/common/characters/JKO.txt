@@ -1,0 +1,16 @@
+characters={
+JKO_Kishi={
+		name= "Kishi Nobusuke"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/JAP/Portrait_JAP_Nobosuke_Kishi.dds"
+    } }
+ country_leader = {
+    ideology = colony
+    expire = "1989.1.7.2"
+    desc = "Oh God oh fk its kishi"
+}
+ }
+
+ 
+}

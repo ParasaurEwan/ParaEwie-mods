@@ -1,0 +1,67 @@
+characters={
+JAP_Showa={
+		name= "Hirohito"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/JAP/Portrait_JAP_Hirohito.dds"
+    } }
+ country_leader = {
+    ideology = conservatism
+    expire = "1989.1.7.2"
+    desc = "Showa"
+}
+ country_leader = {
+    ideology = national_lib
+    expire = "1989.1.7.2"
+    desc = "Showa"
+}
+ country_leader = {
+    ideology = social_dem
+    expire = "1989.1.7.2"
+    desc = "Showa"
+}
+ country_leader = {
+    ideology = extreme_rightdem
+    expire = "1989.1.7.2"
+    desc = "Showa"
+}
+ country_leader = {
+    ideology = despotism
+    expire = "1989.1.7.2"
+    desc = "Showa"
+}
+ country_leader = {
+    ideology = ultranat
+    expire = "1989.1.7.2"
+    desc = "Showa"
+}
+ }
+ 
+JKO_Kishi={
+		name= "Kishi Nobusuke"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/JAP/Portrait_JAP_Nobosuke_Kishi.dds"
+    } }
+ country_leader = {
+    ideology = reactionary
+    expire = "1989.1.7.2"
+    desc = "Oh God oh fk its kishi"
+}
+ }
+ 
+JAP_Kishi={
+		name= "Kishi Nobusuke"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/JAP/Portrait_JAP_Nobosuke_Kishi.dds"
+    } }
+ country_leader = {
+    ideology = despotism
+    expire = "1989.1.7.2"
+    desc = "Oh God oh fk its kishi"
+}
+ }
+
+ 
+}

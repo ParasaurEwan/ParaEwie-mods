@@ -1,0 +1,19 @@
+characters={
+
+UKR_Krushchev={
+		name= "Nikita Krushchov"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/UKR/Portrait_UKR_Nikita_Krushchov.dds"
+    } }
+ country_leader = {
+    ideology = ulyanovism
+	expire = "1960.3.1"
+    desc = "Corn Lord"
+}
+ }
+
+
+
+ }
+

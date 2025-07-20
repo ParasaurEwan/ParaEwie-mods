@@ -1,0 +1,14 @@
+characters={
+RAJ_vkk_menon={
+		name= "Vengalil K. Menon"
+	portraits = {
+    civilian = {
+        large = gfx/leaders/RAJ/Portrait_RAJ_VKK_Menon.dds
+    }}
+ country_leader = {
+    ideology = ulyanovism
+	expire = "1960.3.1"
+    desc = "Hindured"
+}
+} }
+}

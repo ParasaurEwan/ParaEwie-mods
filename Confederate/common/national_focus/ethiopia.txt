@@ -1,0 +1,29 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = ethiopia_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			original_tag = ETH
+			has_dlc = "By Blood Alone"
+			NOT = {
+				any_other_country = { 
+					original_tag = ETH # There can be only one...
+					has_government = ROOT # or four actually...
+				}
+			}
+		}
+	}
+
+	default = no
+
+	

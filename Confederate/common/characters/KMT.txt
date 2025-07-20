@@ -1,0 +1,27 @@
+characters={
+KMT_Chiang_Kai_Shek={
+		name= "Chiang Kai Shek"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/KMT/Portrait_Chiang_Kai_Shek.dds"
+    } }
+ country_leader = {
+    ideology = junta
+    expire = "1989.1.7.2"
+    desc = "Chinese Dictator who is not Mao"
+}
+ }
+KMT_Bai_Chongxi={
+		name= "Bai Chongxi"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/KMT/Portrait_Chiang_Kai_Shek.dds"
+    } }
+ country_leader = {
+    ideology = national_dem
+    expire = "1989.1.7.2"
+    desc = "Chinese Dictator who is not Mao"
+}
+ }
+ 
+}

@@ -1,0 +1,19 @@
+﻿add_namespace = Soviets
+
+country_event = { ###Soviets choose government###
+      id = Soviets.13
+	title = Soviets.13.t
+	desc = Soviets.13.d
+	fire_only_once = yes
+    
+	
+    is_triggered_only = yes
+	option = {
+	name = "Mensheviks!"
+	retire_country_leader = yes
+	set_ruling_party = soc
+		}
+option = {
+	name = "Bolsheviks!"
+	retire_country_leader = yes
+		}		}

@@ -1,0 +1,15 @@
+characters={
+MAN_zhang_xueliang={
+		name= "Zhang Xueliang"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/MAN/Portrait_MAN_Zhang_Xueliang.dds"
+    } }
+ country_leader = {
+    ideology = despotism
+    expire = "1989.1.7.2"
+    desc = "Shang Hulyang"
+}
+ }
+ 
+}

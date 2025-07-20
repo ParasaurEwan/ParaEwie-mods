@@ -1,0 +1,77 @@
+ideas = {
+
+  country = { 
+  CSA_slavery_recent = {
+			name = "Recent Abolition of Slavery"
+
+			removal_cost = -1
+
+			picture = saf_history_of_segregation
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 1
+
+				conscription_factor = -0.5
+				join_faction_tension = 0.20
+				local_resources_factor = -0.2
+			}
+		}
+  }
+
+	aircraft_manufacturer = {
+	
+		designer = yes
+		
+		CSA_avions_fairey = {
+			picture = generic_air_manufacturer_2
+
+			
+			allowed = {
+				original_tag = CSA
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				# Tipsy B, firefly, fairey fox
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		CSA_renard = {
+			picture = generic_air_manufacturer_2
+
+			
+			allowed = {
+				original_tag = CSA
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				# Tipsy B, firefly, fairey fox
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	
+}

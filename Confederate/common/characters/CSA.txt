@@ -1,0 +1,63 @@
+characters={
+CSA_George_Marshall={
+		name= "George Marshall"
+	portraits = {
+    civilian = {
+        large = gfx/leaders/CSA/Portrait_CSA_George_Marshall.dds
+    }
+    army = {
+        large = GFX_my_unit_leader_portrait
+    }
+ country_leader = {
+    ideology = oligarchism
+    desc = "Bloody racist"
+}
+} }
+CSA_John_N_Garner={
+		name= "John Nance Garner"
+	portraits = {
+    civilian = {
+        large = gfx/leaders/CSA/Portrait_CSA_Cactus_Jack.dds
+    }}
+ country_leader = {
+    ideology = national_dem = {
+			}
+    desc = "Yay Cactus Jack"
+}
+ }
+CSA_Walt_George={
+		name= "Walter F.George"
+	portraits = {
+    civilian = {
+        large = gfx/leaders/CSA/Portrait_CSA_Walt_George.dds
+    }}
+ country_leader = {
+    ideology = apartism
+    desc = "Bloody racist"
+}
+ }
+CSA_George_Wallace={
+		name= "George C. Wallace"
+	portraits = {
+    civilian = {
+        large = gfx/leaders/CSA/Portrait_CSA_George_Wallace.dds
+    }}
+ country_leader = {
+    ideology = extreme_apart
+    desc = "Oh god no it's George 'I am Very Racist' Wallace"
+}
+ }
+
+CSA_Asa_Forrest_Carter={
+		name= "Asa Forrest Carter"
+	portraits = {
+    civilian = {
+        large = gfx/leaders/CSA/Portrait_CSA_Forrest_Carter.dds
+    }}
+ country_leader = {
+    ideology = ultranat
+    desc = "Not a fake Native, but he adopted Forrest as his name for.... different reasons."
+}
+ }
+
+}

@@ -1,0 +1,32 @@
+Ruscivilwar_decisions = {
+	picture = GFX_decision_cat_Steelworks
+	icon = GFX_decision_category_generic_political_actions
+    allowed = {
+		OR = {
+		tag = RUS
+		tag = SOV
+		tag = PSR
+		tag = TRU
+		tag = IMR
+		}
+	}
+	visible = {
+		OR = {
+		tag = RUS
+		tag = SOV
+		tag = PSR
+		tag = NTS
+		tag = TRU
+		tag = IMR
+		}
+	}
+	
+	priority = 130
+}
+
+
+
+
+
+
+

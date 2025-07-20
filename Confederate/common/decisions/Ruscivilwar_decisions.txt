@@ -1,0 +1,27 @@
+    Ruscivilwar_decisions = { 
+	SOV_move_capital_Moscow = {
+	icon = GFX_decision_USA_Revitalize_NYC
+	cost = 12
+	visible = {
+			tag = SOV
+			limit = {219 = {controller = SOV}} 
+		}
+		complete_effect = {
+    set_capital = {state = 219}
+}
+	}
+	SOV_move_capital_Irkutsk = {
+	icon = GFX_decision_USA_Revitalize_NYC
+	cost = 12
+	visible = {
+			tag = SOV
+			limit = {570 = {controller = SOV}} 
+			limit = {566 = {controller = SOV}} 
+			limit = {567 = {controller = SOV}} 
+		}
+		complete_effect = {
+    set_capital = {state = 566}
+}
+	}
+	}
+    

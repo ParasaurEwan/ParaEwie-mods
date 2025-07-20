@@ -1,0 +1,79 @@
+characters={
+SOV_Two_Parties={
+		name= "All-Socialist Committee"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/SOV/Portrait_SOV_Two_Parties.dds"
+    } }
+ country_leader = {
+    ideology = ulyanovism
+    expire = "1970.1.11.2"
+    desc = "Commies"
+}
+ country_leader = {
+    ideology = spartacism
+    expire = "1970.1.11.2"
+    desc = "Commies"
+}
+ }
+SOV_Bukharin={
+		name= "Nikolai Bukharin"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/SOV/Portrait_SOV_Nikolai_Bukharin.dds"
+    } }
+ country_leader = {
+    ideology = ulyanovism
+    expire = "1970.1.11.2"
+    desc = "Commies"
+}
+SOV_Raphael_Abramovitch={
+		name= "Rafael Abramovitch"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/SOV/Portrait_SOV_Rafael_Abramovitch.dds"
+    } }
+ country_leader = {
+    ideology = syndicalism
+    expire = "1970.1.11.2"
+    desc = "Commies"
+}
+ }
+SOV_Karl_Radek={
+		name= "Karl Radek"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/SOV/Portrait_SOV_Karl_Radek.dds"
+    } }
+ country_leader = {
+    ideology = ulyanovism
+    expire = "1970.1.11.2"
+    desc = "Commies"
+} }
+SOV_Yuri_Andropov={
+		name= "Yuri Andrapov"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/SOV/Portrait_SOV_Yuri_Andrapov.dds"
+    } }
+ country_leader = {
+    ideology = ulyanovism
+    expire = "1970.1.11.2"
+    desc = "Commies"
+} }
+SOV_Kollontai={
+		name= "Alexandra Kollontai"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/SOV/Portrait_SOV_Alexandra_Kollontai.dds"
+    } }
+ country_leader = {
+    ideology = spartacism
+    expire = "1970.1.11.2"
+    desc = "Commies"
+}
+ }
+ }
+
+
+

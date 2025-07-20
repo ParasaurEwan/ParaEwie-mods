@@ -1,0 +1,15 @@
+characters={
+FRA_Maurice_Thorez={
+		name= "Maurice Thorez"
+	portraits = {
+    civilian = {
+        large = gfx/leaders/FRA/Portrait_FRA_Maurice_Thorez.dds
+    }
+
+    }
+ country_leader = {
+    ideology = jacobin
+    desc = "Commie France"
+}
+} }
+}

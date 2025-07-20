@@ -1,0 +1,45 @@
+bookmarks = {
+	bookmark = {
+		name = "East"
+		desc = "East"
+		date = 1952.1.1.1
+		picture = "GFX_select_Soviet_bookmark"
+		default_country = "FRA"
+		default = yes
+		
+		"FRA"={
+			history = "SOV_RUSTED_CURTAIN_DESC"
+			ideology = soc
+			ideas = {
+				trotskyite_plot_nsb
+				SOV_second_five_year_plan_fake_1936_ns
+				SOV_politicized_military
+			}
+			focuses = {
+				SOV_behead_the_snake
+				SOV_father_of_nations
+				SOV_the_supreme_soviet
+			}	
+		}
+
+		"RAJ"={
+			history = "USA_RUSTED_CURTAIN_DESC"
+			ideology = com
+			ideas = {
+				home_of_the_free
+				great_depression
+				undisturbed_isolation
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_limited_intervention
+				USA_reestablish_the_gold_standard
+			}
+		}
+
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		} }
+	}

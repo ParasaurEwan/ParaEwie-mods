@@ -1,0 +1,365 @@
+﻿add_namespace = USA_elections
+add_namespace = USA_election_news
+add_namespace = USA_NU_nomination
+add_namespace = USA_Dem_nomination
+add_namespace = USA_SP_nomination
+
+country_event = {		#Stevenson Nominated!
+	id = USA_NU_nomination.1
+	title = USA_NU_nomination.1.t
+	desc = USA_NU_nomination.1.d
+	picture = GFX_report_event_Generic_Violent_Coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+
+		}
+	} 
+    option = {
+	name = "Aldai E. Stevenson II for President!" hidden_effect = { USA = {
+	retire_character = USA_Nat_Un_Committee}
+	}}
+	
+	}
+	
+country_event = {		#Socialist Party Nominations
+	id = USA_SP_nomination.1
+	title = USA_SP_nomination.1.t
+	desc = USA_SP_nomination.1.d
+	picture = GFX_report_event_Generic_Violent_Coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+
+		}
+	} 
+    option = {
+	name = "Russel Long, the Louisianan Emigre!" hidden_effect = { USA = {
+	set_country_flag = USA_SP_1952_LONG
+	retire_character = USA_SP_Committee create_country_leader = {
+	name = "Russel B. Long"
+	desc = "Screw you Isorrow We will have Every Man a King in every hoi4 mod"
+	picture = "gfx/leaders/USA/Portrait_USA_Russel_Long.dds"
+	expire = "1975.1.1"
+	ideology = left_populism
+	traits = { }
+}
+	}}}
+	
+	 option = {
+	name = "The Natural Candidate, Norman Thomas!" hidden_effect = { USA = {retire_character = USA_SP_Committee create_country_leader = {
+	name = "Norman Thomas"
+	desc = "Social Democrats? In MY America? The meme this set up is dead"
+	picture = "gfx/leaders/USA/USA_Norman_Thomas.dds"
+	expire = "1968.1.1"
+	ideology = social_dem
+	traits = { }
+}
+	}}}
+	
+	}
+	
+	
+country_event = { # Election of 1952!
+	id = USA_elections.1
+	title = USA_elections.1.t
+	desc = USA_elections.1.d
+	picture = GFX_report_event_Generic_Violent_Coup
+
+	is_triggered_only = yes
+	fire_only_once = yes
+     trigger = {
+
+	TAG = USA
+
+	AND = {
+
+		date > 1952.11.2
+
+		date < 1952.11.10
+
+	}
+
+}
+	immediate = { }
+
+	option = { 
+		name = "Four More Years of Democrats!"
+		hidden_effect = { 
+				news_event = { 
+			days = 1 
+			id = USA_election_news.1 }
+		
+			USA = { 
+				add_stability = 0.3
+				set_country_flag = USA_Dems_Won_1952
+			}
+		}} 
+	
+
+	option = { 
+		name = "The National Union Party!"
+		hidden_effect = { 
+				news_event = { 
+			days = 1 
+			id = USA_election_news.2 
+		} 
+			USA = {
+				set_country_flag = USA_NatUn_Won_1952
+				set_politics = {
+					ruling_party = leftdem
+					elections_allowed = yes
+				} 
+			} 
+		}
+	}
+
+	option = { 
+		name = "The Socialist Party wins an upset!"
+		hidden_effect = {
+
+		if = {
+			limit = { 
+				USA = { has_country_flag = USA_SP_1952_LONG } 
+			} 
+			news_event = { 
+				days = 1 
+				id = USA_election_news.4 
+			} 
+		} 
+		else = { 
+			news_event = { 
+				days = 1 
+				id = USA_election_news.3 
+			} 
+		} 		
+			USA = { 
+				set_country_flag = USA_SP_Won_1952
+				set_politics = {
+					ruling_party = socdem
+					elections_allowed = yes
+				}
+			}
+			
+		}
+
+	}
+}
+news_event = {	
+    id = USA_election_news.1
+	title = USA_election_news.1.t
+	desc = USA_election_news.1.d
+	picture = GFX_report_event_Generic_Violent_Coup
+    major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+
+		}
+	}
+
+option = {
+	trigger = {
+			NOT = { TAG = CSA }
+			NOT = { TAG = USA }
+		}
+	name = "More of the Same in the USA." 
+	}
+	option = {
+	trigger = {
+			NOT = { TAG = CSA }
+			TAG = USA
+		}
+	name = "The Natural Governing Party of the USA." 
+	}
+	option = {
+	trigger = {
+			TAG = CSA 
+			NOT = { TAG = USA }
+		}
+	name = "Yankees never change." 
+	}	
+
+}
+
+news_event = {
+
+    id = USA_election_news.2
+	title = USA_election_news.2.t
+	desc = USA_election_news.2.d
+	picture = GFX_report_event_Generic_Violent_Coup
+    major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+
+		}
+	} 
+	
+	option = {
+	trigger = {
+			NOT = { TAG = CSA }
+			NOT = { TAG = USA }
+		}
+	name = "Send our Congratulations to President Stevenson!" 
+	}
+	option = {
+	trigger = {
+			NOT = { TAG = CSA }
+			TAG = USA
+		}
+	name = "Prosperity and Freedom!" 
+	}
+	option = {
+	trigger = {
+			TAG = CSA 
+			NOT = { TAG = USA }
+		}
+	name = "More Rooseveltism, i presume." 
+	}}
+	
+news_event = {
+
+    id = USA_election_news.3
+	title = USA_election_news.3.t
+	desc = USA_election_news.3.d
+	picture = GFX_report_event_Generic_Violent_Coup
+    major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+
+		}
+	} 
+	
+	trigger = {
+	USA = {
+    NOT = {
+        has_country_flag = USA_SP_1952_LONG
+    }}
+}
+	
+	option = {
+	trigger = {
+			NOT = { TAG = CSA }
+			NOT = { TAG = USA }
+		}
+	name = "A Social Democratic America?" 
+	}
+	option = {
+	trigger = {
+			NOT = { TAG = CSA }
+			TAG = USA
+		}
+	name = "....This land was made for you and me!" 
+	}
+	option = {
+	trigger = {
+			TAG = CSA 
+			NOT = { TAG = USA }
+		}
+	name = "America has turned Red. This is what happens when you let Races mix." 
+	}}
+	
+news_event = {
+
+    id = USA_election_news.4
+	title = USA_election_news.4.t
+	desc = USA_election_news.4.d
+	picture = GFX_report_event_Generic_Violent_Coup
+    major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+
+		}
+	} 
+	
+	option = {
+	trigger = {
+			NOT = { TAG = CSA }
+			NOT = { TAG = USA }
+
+		}
+	name = "Every Man a King in America!" 
+	}
+	option = {
+	trigger = {
+			NOT = { TAG = CSA }
+			TAG = USA
+		}
+	name = "This is for you, Kingfish." 
+	}
+	option = {
+	trigger = {
+			TAG = CSA 
+			NOT = { TAG = USA }
+		}
+	name = "We went through all the effort to stop his dad here... and now he's a YANK?!" 
+	}
+	}
+	
+	
+country_event = {		#Post-Romney Democrat Nomination.
+	id = USA_Dem_nomination.1
+	title = USA_Dem_nomination.1.t
+	desc = USA_Dem_nomination.1.d
+	picture = GFX_report_event_Generic_Violent_Coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+
+		}
+	} 
+    option = {
+	name = "Disney is not experienced enough. Eisenhower!" hidden_effect = { USA = {
+	retire_character = USA_George_Romney create_country_leader = {
+	name = "Dwight D. Eisenhower"
+	desc = "Yay a honorary Pennsylvanian"
+	picture = "gfx/leaders/USA/Portrait_USA_Eisenhower.dds"
+	expire = "1969.1.1"
+	ideology = national_dem
+	traits = { }
+}}
+	}}
+	option = {
+	name = "That's a great idea! The Mouse in the White House!" hidden_effect = { USA = { set_country_flag = USA_D_1954_DISNEY
+	retire_character = USA_George_Romney create_country_leader = {
+	name = "Walter E. Disney"
+	desc = "Copyright strike"
+	picture = "gfx/leaders/USA/Portrait_USA_Disney.dds"
+	expire = "1966.1.1"
+	ideology = national_dem
+	traits = { }
+}}
+	}}
+	
+	}
+
+	
+	
+	
+
+	
+	
+	

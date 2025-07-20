@@ -1,0 +1,94 @@
+characters={
+CHI_Long_Yun={
+		name= "Long Yun"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/CHI/Portrait_CHI_Long_Yun.dds"
+    } }
+ country_leader = {
+    ideology = provisional_gov
+    expire = "1989.1.7.2"
+    desc = "Long Yuuuuuuuuuuuuun"
+}
+ }
+CHI_wang_jingwei={
+		name= "Wang Jingwei"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/CHI/Portrait_CHI_Wang_Jingwei.dds"
+    } }
+ country_leader = {
+    ideology = national_socdem
+    expire = "1989.1.7.2"
+    desc = "Never became a Fascist Collaborator Bastard. Nice!"
+}
+ }
+CHI_Cheng_Qian={
+		name= "Cheng Qian"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/CHI/Portrait_CHI_Cheng_Qian.dds"
+    } }
+ country_leader = {
+    ideology = liberalism
+    expire = "1989.1.7.2"
+    desc = "OMG Kaiserreich Reference!!!!!1111111111111111111"
+}
+ }
+CHI_Li_Zongren={
+		name= "Li Zongren"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/CHI/Portrait_CHI_Li_Zongren.dds"
+    }
+army={
+				small=GFX_portrait_GXC_li_zongren_small
+				large="gfx/leaders/CHI/Portrait_CHI_Li_Zongren.dds"
+			}	}
+			advisor={
+			slot = army_chief
+			idea_token = GXC_li_zongren
+			allowed = {
+				OR = {original_tag = CHI
+				original_tag = KMT}
+			
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+				cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+ country_leader = {
+    ideology = national_dem
+    expire = "1989.1.7.2"
+    desc = "Li Zongren more like Yee Zongren"
+}
+country_leader = {
+    ideology = junta
+    expire = "1989.1.7.2"
+    desc = "Li Zongren more like Yee Zongren"
+}
+ }
+ 
+ CHI_Song_Qingling={
+		name= "Song Qingling"
+	portraits = {
+    civilian = {
+        large = "gfx/leaders/CHI/Portrait_CHI_Song_Qingling.dds"
+    } }
+ country_leader = {
+    ideology = liberal_soc
+    expire = "1989.1.7.2"
+    desc = "OMG Kaiserreich Reference!!!!!1111111111111111111"
+}
+country_leader = {
+    ideology = red_tinted
+    expire = "1989.1.7.2"
+    desc = "OMG Kaiserreich Reference!!!!!1111111111111111111"
+}
+ }
+ 
+}

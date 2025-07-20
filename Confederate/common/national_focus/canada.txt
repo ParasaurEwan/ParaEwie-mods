@@ -1,0 +1,23 @@
+focus_tree = {
+	id = canadian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CAN
+
+		}
+
+		#modifier = {
+		#	add = 10
+		#	original_tag = CAN
+
+		#}
+	}
+	
+	default = no
+
+
+
