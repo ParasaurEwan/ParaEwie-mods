@@ -1,0 +1,40 @@
+
+state={
+	id=521
+	name="STATE_521"
+	resources={
+		tungsten=24.000
+	}
+
+	history={
+		owner = ASP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			7564 = {
+				naval_base = 2
+				coastal_bunker = 1
+
+			}
+			
+
+		}
+		victory_points = {
+			7564 15 
+		}
+		victory_points = {
+			7566 1 
+		}
+		add_core_of = ASP
+
+	}
+
+	provinces={
+		1472 1557 1570 1611 2163 4453 4481 4502 4517 4530 4546 4560 4632 4658 5227 7450 7471 7496 7522 7535 7564 7592 7610 7649 7651 7664 7666 10430 10445 10458 10460 10475 10487 10500 11006 12308 12411 12424 12451 
+	}
+	manpower=816800
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,73 @@
+ANV_balance_of_power_category = {
+    TEST_ENGLAND_HAPPY = {
+        allowed = {
+            tag = ANV
+        }
+        icon = GFX_bop_ANV_english_side
+
+        days_remove = 10
+        modifier = {
+        }
+        remove_effect = {
+          add_power_balance_value = {
+    id = ANV_french_anglo_balance
+    value = -0.1
+    tooltip_side = ANV_bop_left_side
+}
+        }
+        cancel_trigger = {
+          
+        }
+        cancel_effect = {
+            
+        }
+    }
+	TEST_FRANCE_HAPPY = {
+        allowed = {
+            tag = ANV
+        }
+        icon = GFX_bop_ANV_french_side
+
+        days_remove = 10
+        modifier = {
+        }
+        remove_effect = {
+          add_power_balance_value = {
+    id = ANV_french_anglo_balance
+    value = 0.1
+    tooltip_side = ANV_bop_right_side
+}
+        }
+        cancel_trigger = {
+          
+        }
+        cancel_effect = {
+            
+        }
+    }
+	
+	ANV_gonna_implode_ENG = {
+    activation = {
+        is_power_balance_in_range = {
+    id = ANV_french_anglo_balance
+    range > ANV_French_Dominance
+}
+    }
+    available = {
+        has_civil_war = no
+    }
+    cancel_trigger = {
+         is_power_balance_in_range = {
+    id = ANV_french_anglo_balance
+    range > ANV_French_Dominance
+} = no
+    }
+    icon = mission_icon     # For GFX_decision_mission_icon
+    is_good = yes
+    days_mission_timeout = 100
+    timeout_effect = {
+  			
+		   country_event = ANV_English_Revolt.1
+    }
+}
+}

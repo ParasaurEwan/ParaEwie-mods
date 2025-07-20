@@ -1,0 +1,17 @@
+
+state={
+	id=997
+	name="STATE_997"
+	provinces={
+		10187 10488 10530 10660 
+	}
+        history = {
+         owner = KKD
+          add_core_of = KKD
+         add_core_of = KYR
+         add_Core_of = UZB }
+	manpower=76690
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=382
+	name="STATE_382"
+	resources={
+		oil=14.000
+	}
+
+	history={
+		owner = LIB
+                add_core_of = LIB
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			1827 5 
+		}
+
+	}
+
+	provinces={
+		868 1658 1756 1827 3869 6887 10535 10588 10640 12561 12633 
+	}
+	manpower=407846
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=8.000
+}

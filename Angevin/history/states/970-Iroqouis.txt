@@ -1,0 +1,15 @@
+
+state={
+	id=970
+	name="STATE_970"
+	provinces={
+		598 702 734 862 1436 3602 3697 3702 3733 3747 3880 6717 6778 6795 6916 9664 9708 9721 9754 9836 10381 11648 11650 11654 11662 11665 11680 11722 11817 
+	}
+        history = {
+        owner = VNL
+        add_core_of = VNL}
+	manpower=345246
+        state_category=large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=988
+	name="STATE_988"
+	provinces={
+		4528 4822 10442 10697 12419 
+	}
+       history = { owner = SAF
+        add_core_of = SAF }
+	manpower=1157178
+        state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

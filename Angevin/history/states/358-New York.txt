@@ -1,0 +1,41 @@
+
+state={
+	id=358
+	name="STATE_358"
+	resources={
+		steel=13.000
+	}
+
+	history={
+		owner = NEC
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 7
+			dockyard = 3
+			air_base = 10
+			3878 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = AVL
+		add_core_of = NEC
+		victory_points = {
+			3878 30.0 
+		}
+		victory_points = {
+			11654 3 
+		}
+
+	}
+
+	provinces={
+		718 859 908 3710 3806 3878 6909 6911 9832 9847 9850 11830 
+	}
+	manpower=12588061
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

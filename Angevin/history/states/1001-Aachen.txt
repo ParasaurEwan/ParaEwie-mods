@@ -1,0 +1,19 @@
+state={
+	id=1001
+	name="STATE_1001"
+	provinces={
+		3488 6537 11407 11562 
+	}
+        history={
+		owner = GER
+                add_core_of = GER
+buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1}
+ }
+	manpower=768,092
+        state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

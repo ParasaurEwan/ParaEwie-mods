@@ -1,0 +1,16 @@
+state={
+	id=996
+	name="STATE_996"
+	provinces={
+		4482 4549 4958 5003 7560 7924 10357 10414 10742 
+	}
+        history = {
+owner = BUK
+add_core_of = BUK
+add_Core_of = TMS
+ }
+	manpower=310486
+        state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

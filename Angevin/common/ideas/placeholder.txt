@@ -1,0 +1,9 @@
+ideas = {
+    country = {
+        CLD_trekker = {
+		modifier = {
+                training_time_factor = -0.1
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+ITALY_PAP = {
+   color = rgb { 78 170 0 }
+	color_ui = rgb { 76 170 0 }
+}
+ITALY_ITA = {
+   color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+ITALY_TTS = {
+   color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+ITALY_VNZ = {
+   color = rgb { 179 11 0 }
+	color_ui = rgb { 102 0 0 }
+}
+
+ANV_FRA = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=469
+	name="STATE_469"
+
+	history={
+		owner = VNL
+		add_core_of = VNL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			4739 2 
+		}
+
+	}
+
+	provinces={
+		736 1788 1848 3481 3721 3769 4218 4739 4759 4863 7883 10611 10656 12593 12603 12636 12663 
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

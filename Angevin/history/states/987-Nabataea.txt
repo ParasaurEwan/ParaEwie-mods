@@ -1,0 +1,15 @@
+state={
+	id=987
+	name="STATE_987"
+       history = {
+add_core_of = HEJ
+owner = HEJ
+ }
+	provinces={
+		4562 4603 8101 11976 12101 12455 
+	}
+	manpower=332000
+        state_category=wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

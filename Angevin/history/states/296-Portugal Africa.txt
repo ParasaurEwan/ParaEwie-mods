@@ -1,0 +1,33 @@
+
+state={
+	id=296
+	name="STATE_296"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = POL
+		add_core_of = GAM
+		victory_points = {
+			12891 1 
+		}
+		buildings = {
+			infrastructure = 1
+			12891 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		12834 12891 
+	}
+	manpower=364900
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

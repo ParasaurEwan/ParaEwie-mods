@@ -1,0 +1,17 @@
+state={
+	id=971
+	name="STATE_971"
+	provinces={
+		1077 
+	}
+        history = {
+        owner = AVL
+        add_core_of = AVL
+		victory_points = {
+			1077 40 
+		}}
+	manpower=345678
+        state_category = metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=982
+	name="STATE_982"
+	provinces={
+		1748 4752 4821 4855 7844 7889 10608 10667 10714 12565 12694 
+	}
+        history = {
+           owner = ZAY
+          add_core_of = ZAY
+       }
+	manpower=103866
+        state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

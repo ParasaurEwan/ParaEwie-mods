@@ -1,0 +1,15 @@
+
+state={
+	id=972
+	name="STATE_972"
+	provinces={
+		1927 2019 2042 4884 5061 6785 6798 6987 8064 12369 12728 12782 
+	}
+	 history = {
+        owner = MEX
+        add_core_of = MEX}
+	manpower=43536
+        state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

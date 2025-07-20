@@ -1,0 +1,26 @@
+
+state={
+	id=999
+	name="STATE_999"
+
+	history={
+		owner = SFE
+                add_core_of = SFE
+		buildings = {
+			610 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		505 610 677 710 766 768 781 3471 3588 3644 6482 6665 6681 6745 6757 6772 9697 9713 9730 10159 10422 11495 11658 11698 11733 
+	}
+	manpower=1892416
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

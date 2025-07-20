@@ -1,0 +1,20 @@
+state={
+	id=998
+	name="STATE_998"
+	provinces={
+		1633 4611 4624 
+	}
+        history = {
+owner = COS
+add_core_of = COS
+buildings =
+4611 = {
+				naval_base = 1
+
+			}}
+}
+	manpower=233729
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

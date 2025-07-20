@@ -1,0 +1,28 @@
+
+state={
+	id=816
+	name="STATE_816"
+
+	history={
+		owner = VNL
+		add_core_of = VNL
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			air_base = 3
+
+		}
+		victory_points = {
+			7588 3 
+		}
+
+	}
+
+	provinces={
+		801 880 3802 3850 3941 3975 6823 6850 6899 6958 7588 7646 9789 9923 10441 11769 11789 12405 
+	}
+	manpower=1901974
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=993
+	name="STATE_993"
+	provinces={
+		1238 1321 7288 7447 10130 10274 12275 
+	}
+        history = {
+owner = TRV
+add_core_of = TRV
+
+}
+
+	manpower=14,573,750
+        state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

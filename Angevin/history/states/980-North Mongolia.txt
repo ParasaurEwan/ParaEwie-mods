@@ -1,0 +1,20 @@
+state={
+	id=980
+	name="STATE_980"
+	provinces={
+		4677 4719 7725 7786 10559 12622 
+	}
+        history={
+		owner = MON
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = MON
+
+	}
+	manpower=25325
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=5.000
+}

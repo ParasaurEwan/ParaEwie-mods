@@ -1,0 +1,15 @@
+state={
+	id=994
+	name="STATE_994"
+	provinces={
+		13317 13318 13319 13324 13325 13328 
+	}
+        state_category = pastoral
+        history = {
+    owner = ACR
+    add_core_of = ACR
+        }
+	manpower=2031
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

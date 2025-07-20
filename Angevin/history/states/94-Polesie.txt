@@ -1,0 +1,27 @@
+
+state={
+	id=94
+	name="STATE_94"
+
+	history={
+		owner = RUT
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			560 1 
+		}
+		###
+		add_core_of = RUT
+
+	}
+
+	provinces={
+		474 535 560 3309 3496 3556 6280 6306 6415 6579 9520 11285 11503 
+	}
+	manpower=821467
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

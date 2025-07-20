@@ -1,0 +1,16 @@
+state={
+	id=995
+	name="STATE_995"
+	provinces={
+		789 6991 7454 10403 10472 11853 
+	}
+        history = {
+          owner = ARM
+          add_core_of = ARM
+          add_core_of = TUR
+        }
+        state_category=rural
+	manpower=515564
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

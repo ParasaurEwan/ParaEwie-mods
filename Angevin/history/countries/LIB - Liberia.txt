@@ -1,0 +1,64 @@
+﻿capital = 380
+
+oob = "generic_1936"
+
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
+}
+set_popularities = {
+	leftdem = 50
+	societalism = 25
+	authoritarianism = 25
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_###oob = "generic_1936" ######### "AFG_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_###oob = "generic_1936" ######### "AFG_1936_nsb"
+}
+
+set_technology = {
+	infantry_weapons = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = { #vanilla keeps the old system, nsb afghanistan will no longer produce some of the most advanced tanks in the world
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = { 
+		gwtank_chassis = 1
+		
+	}
+}
+
+
+

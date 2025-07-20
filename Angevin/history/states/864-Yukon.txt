@@ -1,0 +1,19 @@
+
+state={
+	id=864
+	name="STATE_864"
+
+	history={
+		owner = ASK
+		add_core_of = ASK
+
+	}
+
+	provinces={
+		1872 3606 4678 7869 7891 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

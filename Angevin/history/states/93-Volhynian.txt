@@ -1,0 +1,30 @@
+
+state={
+	id=93
+	name="STATE_93"
+
+	history={
+		victory_points = {
+			6557 1 
+		}
+		victory_points = {
+			422 3 
+		}
+		owner = RUT
+		buildings = {
+			infrastructure = 3
+
+		}
+		###
+		add_core_of = RUT
+
+	}
+
+	provinces={
+		491 572 3483 6557 9454 9558 
+	}
+	manpower=1985600
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

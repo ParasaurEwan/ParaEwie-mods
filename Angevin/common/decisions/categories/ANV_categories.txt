@@ -1,0 +1,4 @@
+ANV_balance_of_power_category = {
+allowed = {
+original_tag = ANV}
+}
