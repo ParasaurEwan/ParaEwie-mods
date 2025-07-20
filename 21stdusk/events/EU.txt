@@ -1,0 +1,81 @@
+add_namespace = EU
+add_namespace = EU_United
+
+country_event = {		#Eu Unites!
+	id = EU_United.1
+	title = EU_United.1.t
+	desc = EU_United.1.d
+	picture = GFX_report_event_Generic_Violent_Coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+ option = {
+	name = "Est Europa nuc unita!" hidden_effect = {
+	FRA = {
+			set_cosmetic_tag = EUR_UNIFIED
+				annex_country = {
+    target = GER
+    transfer_troops = yes
+}
+annex_country = {
+    target = BEL
+    transfer_troops = yes
+}
+annex_country = {
+    target = LBV
+    transfer_troops = yes
+}
+annex_country = {
+    target = SWE
+    transfer_troops = yes
+}
+annex_country = {
+    target = CAT
+    transfer_troops = yes
+}
+annex_country = {
+    target = SPR
+    transfer_troops = yes
+}
+annex_country = {
+    target = POR
+    transfer_troops = yes
+}
+annex_country = {
+    target = AUS
+    transfer_troops = yes
+}
+annex_country = {
+    target = LUX
+    transfer_troops = yes
+}
+annex_country = {
+    target = HOL
+    transfer_troops = yes
+}
+annex_country = {
+    target = CZE
+    transfer_troops = yes
+}
+annex_country = {
+    target = NOR
+    transfer_troops = yes
+}
+annex_country = {
+    target = SLV
+    transfer_troops = yes
+}
+every_state = { Limit = { Is_core_of = GER } Add_core_of = FRA }
+every_state = { Limit = { Is_core_of = BEL } Add_core_of = FRA }
+every_state = { Limit = { Is_core_of = SPR } Add_core_of = FRA }
+every_state = { Limit = { Is_core_of = POR } Add_core_of = FRA }
+every_state = { Limit = { Is_core_of = HOL } Add_core_of = FRA }
+every_state = { Limit = { Is_core_of = AUS } Add_core_of = FRA }
+every_state = { Limit = { Is_core_of = SWE } Add_core_of = FRA }
+every_state = { Limit = { Is_core_of = LUX } Add_core_of = FRA }
+every_state = { Limit = { Is_core_of = POL } Add_core_of = FRA }
+every_state = { Limit = { Is_core_of = SLV } Add_core_of = FRA }
+every_state = { Limit = { Is_core_of = CZE } Add_core_of = FRA }
+every_state = { Limit = { Is_core_of = DEN } Add_core_of = FRA }   }}}}

@@ -1,0 +1,28 @@
+
+state={
+	id=976
+	name="STATE_976"
+	manpower = 202209
+	
+	state_category = town
+
+	history={
+		owner = LCH
+				add_core_of = LCH
+				victory_points = {
+			13364 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+
+
+	}
+
+	provinces={
+		13364
+	}
+
+	local_supplies=0.0 
+}

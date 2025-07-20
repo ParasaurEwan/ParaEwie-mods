@@ -1,0 +1,36 @@
+add_namespace = ISR_Jerusalem
+add_namespace = PAL_Jerusalem
+
+country_event = {		#Israeli Jerusalem
+	id = ISR_Jerusalem.1
+	title = ISR_Jerusalem.1.t
+	desc = ISR_Jerusalem.1.d
+	picture = GFX_report_event_Generic_Violent_Coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+ option = {
+	name = "Back to the City of Zion!" hidden_effect = {
+	ISR = {
+	set_capital = {state = 994}
+	}
+	}}}
+	
+country_event = {		#Palestinian Jerusalem
+	id = PAL_Jerusalem.1
+	title = PAL_Jerusalem.1.t
+	desc = PAL_Jerusalem.1.d
+	picture = GFX_report_event_Generic_Violent_Coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+ option = {
+	name = "To the holy City!" hidden_effect = {
+	PAL = {
+	set_capital = {state = 994}
+	}
+	}}}

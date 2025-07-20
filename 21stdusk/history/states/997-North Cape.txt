@@ -1,0 +1,26 @@
+state={
+	id=997
+	name="STATE_997" # Cape
+	manpower = 637178
+
+	state_category = town
+
+	history={
+		owner = AFK
+		buildings = {
+			infrastructure = 1 #was: 5
+			industrial_complex = 1
+		}
+		victory_points = {
+			1509 1 
+		}
+		add_core_of = SAF
+		add_core_of = AFK
+	}
+
+	provinces={
+		1509 4528 5203 10442 10697 12419
+	}
+
+	local_supplies=0.0 
+}

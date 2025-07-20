@@ -1,0 +1,22 @@
+add_namespace = Holland
+
+country_event = {		#Netherlands are back!
+	id = Holland.1
+	title = Holland.1.t
+	desc = Holland.1.d
+	picture = GFX_report_event_Generic_Violent_Coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+ option = {
+	name = "Je Maintiendrai!" hidden_effect = {
+	HOL = {
+			add_core_of = 7
+           transfer_state = 7
+		   add_core_of = 36
+           transfer_state = 36
+		   add_core_of = 35
+           transfer_state = 35
+  }}}}

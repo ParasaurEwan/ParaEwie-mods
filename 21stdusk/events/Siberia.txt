@@ -1,0 +1,68 @@
+add_namespace = SIB
+add_namespace = SIB_Capital
+
+country_event = {
+	id = SIB.1
+	title = SIB.1.t
+	desc = SIB.1.d
+	picture = GFX_report_PB_Gala_Dinner
+ 
+	is_triggered_only = yes
+
+	option = {
+		name = "What?!"
+
+		release = SIB
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "For Siberia!"
+
+		release = SIB
+		SIB = {change_tag_from = SOV}
+
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = SIB_Capital.1
+	title = SIB_Capital.1.t
+	desc = SIB_Capital.1.d
+	picture = GFX_report_PB_Gala_Dinner
+ 
+	is_triggered_only = yes
+
+	option = {
+		name = "Novosibirsk, our largest city!"
+
+		set_capital = {state = 570}
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "Irkutsk, for security!"
+
+		set_capital = {state = 566}
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "Krasnoyarsk, the compromise!"
+
+		set_capital = {state = 568}
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

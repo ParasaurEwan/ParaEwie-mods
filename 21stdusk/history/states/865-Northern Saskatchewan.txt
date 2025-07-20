@@ -1,0 +1,15 @@
+state={
+	id=865
+	name="STATE_865"
+	provinces={
+		515 1411 1671 1763 1804 2407 3010 3498 3800 4695 6754 6779 7348 7766 7830 7858 12166 12534 12682 13167 13168 13183 13185 13187 13192
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+	}
+	manpower=65605
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

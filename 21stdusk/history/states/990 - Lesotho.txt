@@ -1,0 +1,27 @@
+state={
+	id=990
+	name="STATE_990"
+	manpower = 862157
+	resources={
+		chromium=10
+	}
+	
+	state_category = rural
+
+
+	history={
+		owner = LES
+		buildings = {
+			infrastructure = 2}
+		add_core_of = LES
+victory_points = {
+			4556 5 
+		}
+	}
+
+	provinces={
+		4556
+	}
+
+	local_supplies=0.0 
+}

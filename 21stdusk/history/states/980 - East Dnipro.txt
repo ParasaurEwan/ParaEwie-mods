@@ -1,0 +1,29 @@
+
+state={
+	id=980
+	name="STATE_980"
+	manpower = 391047
+	
+	state_category = rural
+
+resources={
+		oil=1 # was: 6
+	}
+	history={
+		owner = MLO
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		add_core_of = UKR
+
+
+	}
+
+	provinces={
+		453 472 486 9479 11452
+	}
+
+	local_supplies=0.0 
+}

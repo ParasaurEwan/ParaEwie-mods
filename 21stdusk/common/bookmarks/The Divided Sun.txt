@@ -1,0 +1,45 @@
+bookmarks = {
+	bookmark = {
+		name = "The Stars shine"
+		desc = "Ooga booga"
+		date = 2080.1.1.12
+		picture = "GFX_select_Japan_Bookmark"
+		default_country = "JAP"
+		default = yes
+
+		"JAP"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = centrism
+			ideas = {
+				home_of_the_free
+				great_depression
+				undisturbed_isolation
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_limited_intervention
+				USA_reestablish_the_gold_standard
+			}
+		}
+		
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = oligarchy
+			ideas = {
+				home_of_the_free
+				great_depression
+				undisturbed_isolation
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_limited_intervention
+				USA_reestablish_the_gold_standard
+			}
+		}
+
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		} }
+	}

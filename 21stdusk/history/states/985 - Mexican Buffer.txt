@@ -1,0 +1,28 @@
+
+state = {
+	id = 985
+	name = "STATE_985"
+	manpower = 427200
+	
+	state_category = large_town
+
+	history = {
+
+		owner = MEX
+		add_core_of = MEX
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+
+set_demilitarized_zone = yes
+		
+	}
+
+	provinces = {
+                2069 5071 8012 8097 10809 12833 12897
+	}
+
+	local_supplies = 0.0 
+}

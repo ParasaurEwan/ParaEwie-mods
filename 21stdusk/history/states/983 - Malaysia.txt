@@ -1,0 +1,48 @@
+
+state = {
+	id = 983
+	name = "STATE_983"
+	manpower = 2893200
+	
+	state_category = city
+	
+	resources = {
+		rubber = 342 # was: 848
+		steel = 20 # was: 32
+		tungsten = 189 # was: 308
+		aluminium = 15 # was: 25
+	}
+
+	history = {
+
+		owner = SNG
+		add_core_of = SNG
+
+		victory_points = {
+			12299 10
+		}
+		victory_points = {
+			7329 1 
+		}
+		victory_points = {
+			10297 1 
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 6
+			12299 = {
+				naval_base = 8
+				coastal_bunker = 3
+			}
+		}
+		
+	}
+
+	provinces = {
+                  12299 
+	}
+
+	local_supplies = 0.0 
+}

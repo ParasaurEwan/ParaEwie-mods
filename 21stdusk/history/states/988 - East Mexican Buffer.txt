@@ -1,0 +1,27 @@
+state = {
+	id = 988
+	name = "STATE_988"
+	manpower = 327200
+	
+	state_category = city
+
+	history = {
+
+		owner = MEX
+		add_core_of = MEX
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+
+set_demilitarized_zone = yes
+		
+	}
+
+	provinces = {
+               2060 2104 5015 10769 12811
+	}
+
+	local_supplies = 0.0 
+}

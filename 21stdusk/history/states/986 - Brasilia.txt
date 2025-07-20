@@ -1,0 +1,29 @@
+
+state = {
+	id = 986
+	name = "STATE_986"
+	manpower = 927200
+	
+	state_category = city
+
+	history = {
+
+		owner = BRA
+		add_core_of = BRA
+		victory_points = {
+			13367 25
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+                        air_base = 1
+		}
+		
+	}
+
+	provinces = {
+                 13367 
+	}
+
+	local_supplies = 0.0 
+}

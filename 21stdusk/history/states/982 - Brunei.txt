@@ -1,0 +1,25 @@
+
+state={
+	id=982
+	name="STATE_982"
+	manpower = 335604
+	
+	state_category = pastoral
+
+	history={
+		owner = BRU
+                add_core_of = BRU
+		buildings = {
+			infrastructure = 2
+			7371 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		7371 12171
+	}
+
+	local_supplies=0.0 
+}

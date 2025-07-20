@@ -1,0 +1,39 @@
+capital = 270
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+set_research_slots = 1
+set_convoys = 0
+
+set_politics = {
+
+	set_popularities = {
+	anarchy = 100
+}
+	
+	ruling_party = marxism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+
+create_country_leader = {
+	name = "We'll Meet Again"
+	desc = ""
+	picture = "leader_unknown.dds"
+	expire = "9999.1.1"
+	ideology = AN_VARIANT_05
+	traits = {
+		}
+}
+
+add_ideas = {
+	RAD_radiations
+}
+
